@@ -15,6 +15,7 @@ codex plugin marketplace add raintree-technology/plugins
 codex plugin add docpull@raintree
 codex plugin add hig-doctor@raintree
 codex plugin add raintree-standards@raintree
+codex plugin add trellis@raintree
 ```
 
 Stable marketplace commands:
