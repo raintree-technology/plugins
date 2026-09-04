@@ -4,10 +4,10 @@
     {
       "name": "docpull",
       "repository": "https://github.com/raintree-technology/docpull.git",
-      "ref": "v6.5.3",
-      "commit": "cd9cc695974c64a6cb3be9c1436b0475db1c933e",
+      "ref": "v6.5.4",
+      "commit": "37113a213cbcf678efef99f85b4902ca750e35ed",
       "sourcePaths": ["plugin"],
-      "version": "6.5.3"
+      "version": "6.5.4"
     },
     {
       "name": "hig-doctor",
