@@ -6,17 +6,10 @@ Every plugin bundle is generated from an immutable product release recorded in
 
 ## Install
 
-DocPull requires its local MCP runtime:
-
-```bash
-pipx install 'docpull[mcp]==6.5.0'
-```
-
-Then add the marketplace and install a plugin:
+Add the marketplace and install HIG Doctor:
 
 ```bash
 codex plugin marketplace add raintree-technology/plugins
-codex plugin add docpull@raintree
 codex plugin add hig-doctor@raintree
 ```
 
@@ -29,8 +22,10 @@ codex plugin add <plugin>@raintree
 codex plugin remove <plugin>@raintree
 ```
 
-If the DocPull plugin reports that the `docpull` executable is missing, run the
-pinned `pipx` command above, verify `docpull --version`, and restart Codex.
+DocPull 6.5.0 was removed from the current marketplace after a clean-install
+test found that its open MCP dependency range resolves to an incompatible major
+version. The immutable `v0.1.0` tag remains the audit record. DocPull will return
+after a corrected product release passes the same fresh-task test.
 
 ## Reproduce the bundles
 
