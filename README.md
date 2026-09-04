@@ -10,7 +10,7 @@ Install the DocPull runtime, add the marketplace, and install the plugins you
 need:
 
 ```bash
-pipx install 'docpull[mcp]==6.5.1'
+pipx install 'docpull[mcp]==6.5.2'
 codex plugin marketplace add raintree-technology/plugins
 codex plugin add docpull@raintree
 codex plugin add hig-doctor@raintree
@@ -27,7 +27,8 @@ codex plugin add <plugin>@raintree
 codex plugin remove <plugin>@raintree
 ```
 
-DocPull 6.5.1 constrains its MCP runtime to the compatible major version. The
+DocPull 6.5.2 constrains its MCP runtime to the compatible major version and
+reports the exact setup command when its executable is missing. The
 immutable `v0.1.0` tag records the withdrawn 6.5.0 bundle, and `v0.1.1` records
 the rollback.
 
