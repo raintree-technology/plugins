@@ -1,0 +1,49 @@
+{
+  "id": "docpull",
+  "name": "docpull",
+  "version": "6.5.1",
+  "description": "Pull public web sources into Codex as local, searchable Markdown through docpull's MCP server.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Raintree Technology",
+    "email": "support@raintree.technology",
+    "url": "https://raintree.technology"
+  },
+  "homepage": "https://github.com/raintree-technology/docpull",
+  "repository": "https://github.com/raintree-technology/docpull",
+  "license": "MIT",
+  "keywords": [
+    "web",
+    "web-extraction",
+    "documentation",
+    "docs",
+    "fetch",
+    "markdown",
+    "rag",
+    "mcp",
+    "local-first",
+    "source-packs",
+    "context-packs"
+  ],
+  "interface": {
+    "displayName": "docpull",
+    "shortDescription": "Fetch public web sources into local, searchable Markdown.",
+    "longDescription": "docpull gives Codex a local MCP server for fetching public static and server-rendered web sources, indexing them as Markdown, searching cached pages, reading cited passages, and inspecting local context packs without API keys or browser automation.",
+    "developerName": "Raintree Technology",
+    "category": "Productivity",
+    "capabilities": [
+      "Fetch public HTTPS pages as Markdown",
+      "Index web sources locally",
+      "Search cached Markdown with regex",
+      "Read cited source passages",
+      "Inspect local context packs",
+      "Manage user-defined source aliases"
+    ],
+    "websiteURL": "https://github.com/raintree-technology/docpull",
+    "brandColor": "#0F6B5D",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": "Use docpull when I ask about a specific library, framework, SDK, API, website, or public source URL. Prefer cached sources first, fetch only the requested source, and cite source paths when answering."
+  }
+}

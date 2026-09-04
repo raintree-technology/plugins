@@ -5,6 +5,18 @@
   },
   "plugins": [
     {
+      "name": "docpull",
+      "source": {
+        "source": "local",
+        "path": "./plugins/docpull"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "hig-doctor",
       "source": {
         "source": "local",
@@ -17,10 +29,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "trellis",
+      "name": "raintree-standards",
       "source": {
         "source": "local",
-        "path": "./plugins/trellis"
+        "path": "./plugins/raintree-standards"
       },
       "policy": {
         "installation": "AVAILABLE",
