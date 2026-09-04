@@ -1,0 +1,178 @@
+version: 1
+okf_version: "0.2"
+bundle_index: index.md
+updated: 2026-09-04
+target_release: "1.1.1"
+release_status: ready
+
+reference_routes:
+  testing: testing/routes.yaml
+
+governance:
+  - path: governance/authority.md
+  - path: governance/contributing.md
+  - path: governance/documentation-quality.md
+  - path: governance/exceptions.md
+  - path: governance/v1-readiness.md
+
+foundations:
+  - id: FND-ACCESSIBILITY
+    path: foundations/accessibility.md
+  - id: FND-EVIDENCE
+    path: foundations/evidence.md
+  - id: FND-TRUST
+    path: foundations/user-trust.md
+  - id: FND-CHANGE
+    path: foundations/safe-change.md
+
+standards:
+  - id: API-CONTRACTS
+    path: api/contracts.md
+  - id: AI-AGENTS
+    path: ai/agentic-systems.md
+  - id: DATA-DATABASE
+    path: data/database-changes.md
+  - id: DATA-QUALITY
+    path: data/quality.md
+  - id: DATA-REDIS
+    path: data/redis.md
+  - id: ENGINEERING-QUALITY
+    path: engineering/quality.md
+  - id: ENGINEERING-TESTING
+    path: engineering/testing.md
+  - id: ENGINEERING-CODE-REMOVAL
+    path: engineering/code-removal.md
+  - id: ENGINEERING-JS-QUALITY
+    path: engineering/javascript-quality.md
+  - id: KNOWLEDGE-SYSTEMS
+    path: knowledge/organizational-knowledge.md
+  - id: ANALYTICS-MEASUREMENT
+    path: analytics/measurement.md
+  - id: GROWTH-EXPERIMENTS
+    path: growth/experiments.md
+  - id: MARKETING-LIFECYCLE
+    path: marketing/lifecycle.md
+  - id: MARKETING-PAID-MEDIA
+    path: marketing/paid-media.md
+  - id: MARKETING-DIRECT-OUTREACH
+    path: marketing/direct-outreach.md
+  - id: MARKETING-PUBLIC-ENGAGEMENT
+    path: marketing/public-engagement.md
+  - id: MARKETING-DISTRIBUTION
+    path: marketing/distribution.md
+  - id: MARKETING-PROJECT-SHOWCASE
+    path: marketing/project-showcase.md
+  - id: SALES-REVENUE-OPERATIONS
+    path: sales/revenue-operations.md
+  - id: DISCOVERY-APP-STORES
+    path: discovery/app-stores.md
+  - id: MEDIA-PRODUCTION-RIGHTS
+    path: media/production-rights.md
+  - id: OPERATIONS-RELIABILITY
+    path: operations/reliability.md
+  - id: OPERATIONS-LOGGING
+    path: operations/logging.md
+  - id: PRODUCT-DELIVERY
+    path: product/delivery.md
+  - id: SEO-FOUNDATIONS
+    path: seo/foundations.md
+  - id: WEB-QUALITY
+    path: web/quality.md
+  - id: WEB-WEBMCP
+    path: web/webmcp.md
+  - id: APPLE-PLATFORM-INTERACTION
+    path: design/apple-platforms.md
+  - id: DESIGN-INTERACTION
+    path: design/interaction.md
+  - id: AGENT-VERIFICATION
+    path: agents/verification.md
+  - id: CONTENT-ERRORS
+    path: error-messages.md
+  - id: CONTENT-INTERFACE
+    path: content/interface.md
+  - id: WRITING-FUNCTIONAL
+    path: writing/functional.md
+  - id: PRIVACY-DATA
+    path: privacy/data-handling.md
+  - id: SECURITY-APPLICATION
+    path: security/application.md
+  - id: SECURITY-SECRETS
+    path: security/secrets-management.md
+  - id: INTEGRATIONS-VENDOR
+    path: integrations/vendor-platforms.md
+  - id: LEGAL-PUBLISHED-TERMS
+    path: legal/published-terms-and-notices.md
+
+patterns:
+  - id: PATTERN-FEDERATED-KNOWLEDGE
+    path: patterns/federated-knowledge.md
+  - id: PATTERN-CROSS-LAYER-POLICY-CONFORMANCE
+    path: patterns/cross-layer-policy-conformance.md
+  - id: PATTERN-VERIFIED-AGENT-WORKFLOW
+    path: patterns/verified-agent-workflow.md
+
+playbooks:
+  - id: PLAYBOOK-APPLE-HIG
+    path: playbooks/apple-hig-audit.md
+  - id: PLAYBOOK-GA4
+    path: playbooks/google-analytics-4.md
+  - id: PLAYBOOK-GSC
+    path: playbooks/google-search-console.md
+  - id: PLAYBOOK-STRIPE
+    path: playbooks/stripe.md
+  - id: PLAYBOOK-PLAID
+    path: playbooks/plaid.md
+  - id: PLAYBOOK-VERCEL
+    path: playbooks/vercel.md
+  - id: PLAYBOOK-RESEND
+    path: playbooks/resend.md
+  - id: PLAYBOOK-NEON
+    path: playbooks/neon.md
+  - id: PLAYBOOK-CLOUDFLARE
+    path: playbooks/cloudflare.md
+  - id: PLAYBOOK-STANDARDS-AUDIT
+    path: playbooks/standards-audit.md
+  - id: PLAYBOOK-TEST-STRATEGY
+    path: playbooks/test-strategy.md
+  - id: PLAYBOOK-AGENT-DESIGN-GUIDANCE
+    path: playbooks/agent-design-guidance.md
+
+profiles:
+  - id: PROFILE-APPLE-INTERFACE
+    path: profiles/apple-interface.md
+  - id: PROFILE-COMMERCIAL-EVIDENCE-REVIEW
+    path: profiles/commercial-evidence-review.md
+  - id: PROFILE-COMPANY-BRAIN
+    path: profiles/company-brain.md
+  - id: PROFILE-AGENTIC-SYSTEM
+    path: profiles/agentic-system.md
+  - id: PROFILE-DATABASE-CHANGE
+    path: profiles/database-change.md
+  - id: PROFILE-PRODUCT-FEATURE
+    path: profiles/product-feature.md
+  - id: PROFILE-GROWTH-EXPERIMENT
+    path: profiles/growth-experiment.md
+  - id: PROFILE-MARKETING-LIFECYCLE
+    path: profiles/marketing-lifecycle.md
+  - id: PROFILE-PUBLIC-WEB-PAGE
+    path: profiles/public-web-page.md
+  - id: PROFILE-RELIABILITY-INCIDENT
+    path: profiles/reliability-incident.md
+  - id: PROFILE-REDIS-CHANGE
+    path: profiles/redis-change.md
+  - id: PROFILE-SECRETS-MANAGEMENT
+    path: profiles/secrets-management.md
+  - id: PROFILE-SOFTWARE-CHANGE
+    path: profiles/software-change.md
+  - id: PROFILE-SERVICE-API
+    path: profiles/service-api-change.md
+  - id: PROFILE-SPECIALIST-MARKETING
+    path: profiles/specialist-marketing.md
+  - id: PROFILE-UI-FEATURE
+    path: profiles/ui-feature.md
+  - id: PROFILE-FUNCTIONAL-WRITING
+    path: profiles/functional-writing.md
+  - id: PROFILE-LEGAL-DOCUMENT
+    path: profiles/legal-document.md
+  - id: PROFILE-CODE-REMOVAL
+    path: profiles/code-removal.md
