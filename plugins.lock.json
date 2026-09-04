@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "name": "docpull",
+      "repository": "https://github.com/raintree-technology/docpull.git",
+      "ref": "v6.5.0",
+      "commit": "ff72d72f0103aa73d18c64969d845826d2c742cb",
+      "sourcePaths": ["plugin"],
+      "version": "6.5.0"
+    },
+    {
+      "name": "hig-doctor",
+      "repository": "https://github.com/raintree-technology/hig-doctor.git",
+      "ref": "hig-doctor-v2.0.3",
+      "commit": "3ec08f5a6f9d2fa22a64950274ba6baee2a38838",
+      "sourcePaths": ["plugin", "skills"],
+      "version": "2.0.3"
+    }
+  ]
+}
