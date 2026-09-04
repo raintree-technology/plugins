@@ -6,11 +6,11 @@ Every plugin bundle is generated from an immutable product release recorded in
 
 ## Install
 
-Add the marketplace and install HIG Doctor:
+Add the marketplace and install Trellis:
 
 ```bash
 codex plugin marketplace add raintree-technology/plugins
-codex plugin add hig-doctor@raintree
+codex plugin add trellis@raintree
 ```
 
 Stable marketplace commands:

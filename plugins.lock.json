@@ -8,6 +8,14 @@
       "commit": "3ec08f5a6f9d2fa22a64950274ba6baee2a38838",
       "sourcePaths": ["plugin", "skills"],
       "version": "2.0.3"
+    },
+    {
+      "name": "trellis",
+      "repository": "https://github.com/raintree-technology/trellis.git",
+      "ref": "v0.3.1",
+      "commit": "fef84a32dff8694c6e6aa726eb7aef42b70997ab",
+      "sourcePaths": ["plugin"],
+      "version": "0.3.1"
     }
   ]
 }
