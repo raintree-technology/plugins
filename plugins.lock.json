@@ -75,6 +75,14 @@
         "plugin"
       ],
       "version": "1.1.1"
+    },
+    {
+      "name": "trellis",
+      "repository": "https://github.com/raintree-technology/trellis.git",
+      "ref": "v0.3.1",
+      "commit": "fef84a32dff8694c6e6aa726eb7aef42b70997ab",
+      "sourcePaths": ["plugin"],
+      "version": "0.3.1"
     }
   ]
 }
